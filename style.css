@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.introduccion {
+    height: 80vh;
+    background-image: url("/velas.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.eslogan {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.eslogan img {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+span {
+    margin: 10px;
+}
+
+.name h1 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin: 10px;
+}
+
+.introduccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.introduccion p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(223, 223, 223, 0.411);
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 5px;
+    margin: 20px;
+}
+
+@media (max-width: 1000px) {
+
+    header {
+        flex-direction: column;
+
+
+
+    }
+
+
+    .catalogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        padding: 5px;
+        margin: 20px;
+    }
+}

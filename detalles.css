@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+
+.eslogan {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.eslogan img {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+span {
+    margin: 10px;
+}
+
+.name h1 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin: 10px;
+}
+
+.velas {
+    display: flex;
+
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_name img {
+    height: 70vh;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .velas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detalles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .img_name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_name img {
+        height: 70vh;
+        width: 100%;
+    }
+}

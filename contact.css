@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@300&display=swap');
+
+html {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.eslogan {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.eslogan img {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+span {
+    margin: 10px;
+}
+
+.name h1 {
+    font-size: 25px;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin: 10px;
+}
+
+
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition: 1s;
+    color: blue;
+}
+
+.container_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+.container_menu p {
+    margin-right: 20px;
+    font-size: 20px;
+    border-right: 2px solid black;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.container_header img {
+    margin-left: 40px;
+    height: 70px;
+    width: 70px;
+
+
+}
+
+.container_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: rgb(51, 34, 204);
+    font-weight: 600;
+
+}
+
+.image img {
+    margin-right: 10px;
+}
+
+.container_section {
+    display: flex;
+    flex-direction: row;
+
+    margin: 20px;
+    margin-top: 0px;
+
+}
+
+.container1 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container1 p {
+
+    font-size: 20px;
+}
+
+
+.container1 {
+    width: 60%;
+    padding: 50px;
+    padding-right: 20px;
+
+}
+
+.container2 {
+    width: 40%;
+    padding: 50px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    margin-right: 5px;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+input {
+    padding: 10px;
+    height: 25px;
+    background-color: rgb(197, 198, 248);
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+select {
+    margin: 10px;
+    padding: 6px;
+
+}
+
+
+textarea {
+    height: 80px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(197, 198, 248);
+    border: none;
+    width: 100%;
+}
+
+.enviar {
+    width: 100px;
+    background-color: blue;
+    border-radius: 5px;
+    color: rgb(236, 236, 236);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    height: 40px;
+}
+
+form {
+    width: 350px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+form h1 {
+    text-align: center;
+}
+
+.container_enviar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container1 img {
+    height: 280px;
+    width: 280px;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.check input {
+    width: 28px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 7px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 226, 226);
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+footer h1 {
+    font-size: 23px;
+}
+
+footer .info_empresa h1 {
+    border-bottom: 2px solid grey;
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: 23px;
+
+}
+
+footer .info_empresa p {
+    text-align: center;
+}
+
+.bad {
+    text-align: center;
+    color: red;
+}
+
+.good {
+    text-align: center;
+    color: rgb(48, 161, 96);
+}
+
+.footer2 {
+    display: none;
+}
+
+@media (max-width:900px) {
+
+    header {
+        height: auto;
+    }
+
+    .container_menu {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .container_header {
+        flex-direction: column;
+    }
+
+    .container_header img {
+        display: none;
+    }
+
+    .container_menu p {
+        margin-right: none;
+        font-size: 20px;
+        border-right: none;
+
+    }
+
+    .image {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        color: rgb(51, 34, 204);
+        font-weight: 600;
+
+    }
+
+    .container_section {
+        flex-direction: column;
+        margin: 0px;
+
+
+    }
+
+
+
+    .container1 {
+        width: 90%;
+        padding: 10px;
+
+    }
+
+    .container2 {
+        width: 90%;
+        padding: 10px;
+    }
+
+    label {
+        margin-right: 0px;
+
+    }
+
+    input {
+        padding: 10px;
+        margin-top: 10px;
+        width: 90%;
+
+    }
+
+    select {
+        margin: 10px;
+        padding: 6px;
+
+    }
+
+
+    textarea {
+
+        width: 90%;
+    }
+
+    .enviar {
+        margin-top: 20px;
+    }
+
+    form {
+        width: 98%;
+        padding: 5px;
+        padding-top: 30px;
+    }
+
+
+    .container1 img {
+        height: 280px;
+        width: 280px;
+    }
+
+
+    .check {
+        margin-top: 5px;
+
+    }
+
+
+}
